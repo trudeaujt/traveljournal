@@ -43,9 +43,10 @@ body {
     display: flex;
 }
 
-.divider {
-    border: 1px solid blue;
-}
+/*This part isn't working -- want it to be inbetween the items*/
+/*.card + .card {*/
+/*    border-top: 3px solid black;*/
+/*}*/
 
 .card--image {
     width: 125px;

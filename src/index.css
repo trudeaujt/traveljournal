@@ -32,21 +32,21 @@ body {
 }
 
 .content {
-    margin: 45px 40px 0 40px;
+    margin: 27px 40px 0 40px;
     display: flex;
     flex-direction: column;
-    gap: 36px;
 }
 
 .card {
+    margin: 18px 0;
     height: 168px;
     display: flex;
 }
 
-/*This part isn't working -- want it to be inbetween the items*/
-/*.card + .card {*/
-/*    border-top: 3px solid black;*/
-/*}*/
+/* the border between cards - only applies between them! */
+.card--spacer + .card--spacer {
+    border-top: 1px solid #F5F5F5;
+}
 
 .card--image {
     width: 125px;
